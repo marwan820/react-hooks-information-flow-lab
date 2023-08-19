@@ -1,9 +1,9 @@
-export default function  Header({onDarkModeClick,isDarkMode}){
+export default function  Header({onDarkModeClick}){
     
-    <header>
+   return  <header>
         <h2>Shopster</h2>
-        <button onClick={onDarkModeClick}>
-          {isDarkMode ? "Dark" : "Light"}
+        <button  onClick={onDarkModeClick}>
+          Light Mode
         </button>
       </header>
 }

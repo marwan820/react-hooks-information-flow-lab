@@ -8,7 +8,7 @@ function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
    
   function onDarkModeClick() {
-    setIsDarkMode((isDarkMode) => !isDarkMode)
+    return setIsDarkMode((isDarkMode) => !isDarkMode)
   }
 
   return (
